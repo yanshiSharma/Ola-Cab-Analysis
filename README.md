@@ -51,8 +51,15 @@ Ola-Cab-Analysis/
 │                                 # 10 analytical queries each saved as SQL Views
 │
 └── 📊 ola dashboard.pbix        # Power BI report — 5-page interactive dashboard
-                                  # Overall · Vehicle Type · Revenue ·
-                                  # Cancellation · Ratings
+│                                  # Overall · Vehicle Type · Revenue ·
+│                                # Cancellation · Ratings
+│
+└── Dashboard-Screenshots
+  └── Cancellation.png
+  └── Overall.png
+  └── Ratings.png
+  └── Revenue.png
+  └── Vehicle Type.png
 ```
 
 ---
@@ -98,35 +105,35 @@ The Power BI report is structured across **5 focused pages**, each answering a d
 ### Page 1 — Overall Summary
 > *Total bookings, total booking value, booking status breakdown (donut), and ride volume over time (dual-axis bar+line).*
 
-![Overall Dashboard](./Overall.png)
+![Overall Dashboard](./Dashboard-Screenshots/Overall.png)
 
 ---
 
 ### Page 2 — Vehicle Type Performance
 > *Per-vehicle breakdown of total booking value, successful booking value, average distance, and total distance travelled.*
 
-![Vehicle Type Dashboard](./Vehicle_Type.png)
+![Vehicle Type Dashboard](./Dashboard-Screenshots/Vehicle_Type.png)
 
 ---
 
 ### Page 3 — Revenue Analysis
 > *Revenue by payment method (bar chart), daily ride distance trend (July 1–30), and top 5 customers by total booking value.*
 
-![Revenue Dashboard](./Revenue.png)
+![Revenue Dashboard](./Dashboard-Screenshots/Revenue.png)
 
 ---
 
 ### Page 4 — Cancellation Analysis
 > *Cancellation reasons split by customer (pie) and driver (pie), with total bookings, successful bookings, and cancelled bookings as KPI cards.*
 
-![Cancellation Dashboard](./Cancellation.png)
+![Cancellation Dashboard](./Dashboard-Screenshots/Cancellation.png)
 
 ---
 
 ### Page 5 — Ratings Analysis
 > *Driver and customer average ratings displayed as a comparison grid across all 7 vehicle types.*
 
-![Ratings Dashboard](./Ratings.png)
+![Ratings Dashboard](./Dashboard-Screenshots/Ratings.png)
 
 ---
 
